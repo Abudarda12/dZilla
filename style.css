@@ -1,8 +1,10 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: Host Grotesk;
-  background-color:rgb(8, 8, 8);
+  font-family: "Host Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: rgb(9, 8, 9);
   color: #FFFFFF;
   font-size: 16px;
   font-weight: 500;
