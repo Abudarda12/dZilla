@@ -1,0 +1,53 @@
+.brand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    animation: loding ;
+    animation-timeline: view();
+    animation-range:  entry 0 cover 40%;
+}
+/*loding animation*/
+@keyframes loding {
+    from {
+        opacity: 0;
+        transform:scale(0);
+    }
+    
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+   
+
+.brand h1{
+    font-size: 94.86px ;
+}
+.brand-card{
+    align-items: center;
+}
+.brand-card img{
+    height: 100%;
+    object-fit: contain;
+}
+.brand-card img:hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+@media screen and (max-width: 768px) {
+    .brand-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .brand h1{
+        font-size: 50px;
+    }
+    .brand-card img{
+        height: 50%;
+        width: 50%;
+    }
+}

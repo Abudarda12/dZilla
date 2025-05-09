@@ -1,0 +1,11 @@
+.project{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.project-heading h1{
+    font-size: 86.54px;
+    font-weight: 700;
+    line-height: 100px;
+}

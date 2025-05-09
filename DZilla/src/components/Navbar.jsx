@@ -21,12 +21,12 @@ function Navbar() {
         </div>
         <div className={`menu ${isMenuOpen ? "open" : ""}`} id="menu">
           <a href="#">Home</a>
-          <a href="#">Our Services</a>
-          <a href="#">Brand Impact</a>
+          <a href="#services"  >Our Services</a>
+          <a href="#brand">Brand Impact</a>
         </div>
         <div className="nav-button">
           <a href="#">
-            <button>Contact us <img src="src\components\9f18301427cd2a5206d430b171a00dd562192ff9.png" alt="" /></button>
+            <button>Contact us <div className="btn-i"><img src="src\components\9f18301427cd2a5206d430b171a00dd562192ff9.png" alt="" /></div></button>
           </a>
         </div>
         <div className="hamburger" id="hamburger" onClick={toggleMenu}>
