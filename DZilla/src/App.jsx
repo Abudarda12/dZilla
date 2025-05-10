@@ -4,7 +4,7 @@ import Hero from './components/hero'
 import Service from './components/Service'
 import Brand from './components/Brand'
 import Project from './components/Project'
-
+import Footer from './components/Footer'
 function App() {
  
 
@@ -15,6 +15,7 @@ function App() {
       <Service />
       <Brand />
       <Project />
+      <Footer />
       
     </>
   )

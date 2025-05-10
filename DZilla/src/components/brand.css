@@ -34,6 +34,7 @@
 .brand-card img{
     height: 100%;
     object-fit: contain;
+    cursor: pointer;
 }
 .brand-card img:hover{
     transform: scale(1.1);

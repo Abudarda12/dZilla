@@ -20,7 +20,7 @@ function Navbar() {
           />
         </div>
         <div className={`menu ${isMenuOpen ? "open" : ""}`} id="menu">
-          <a href="#">Home</a>
+          <a href="">Home</a>
           <a href="#services"  >Our Services</a>
           <a href="#brand">Brand Impact</a>
         </div>

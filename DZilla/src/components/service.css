@@ -45,25 +45,39 @@
     margin-top: 10vh;
 }
 .services .card{
-    width: 263px;
-    height: 257px;
-    background-color: rgb(90, 184, 148);
+    width: 270px;
+    height: 300px;
     border-radius: 46px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     margin: 10px;
+    text-align: center;
  }
  .card:hover{
     transform: scale(1.05);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease-in-out;
 }
+
+#first{
+    background-image: linear-gradient(to top,#661C13,#DD4132);
+}
+#second{
+    background-image: linear-gradient(to top,#0F254B,#4582EB);
+}
+#third{
+    background-image: linear-gradient(to top,#0B441F,#34A552);
+}
+#fourth{
+    background-image: linear-gradient(to top,#795F11,#ECBD33);
+}
+
 @media screen and (max-width: 768px) {
     .services{
         height: 100vh;
-        margin-top: 50vh;
-        margin-bottom: 40vh;
+        margin-top: 60vh;
+        margin-bottom: 60vh;
     }
     .service-card{
         flex-direction: column;

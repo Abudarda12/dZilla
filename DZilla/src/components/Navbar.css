@@ -4,6 +4,11 @@ nav{
     justify-content: space-between;
     align-items: center;
     animation: fadeIn 1s ease-in-out; /* Animation for fade-in effect */
+    position: fixed;
+    top: 0;
+    width: 90%;
+    background-color: black;
+    z-index: 1000;
   }
   nav a{
     color: #FFFFFF;
