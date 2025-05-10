@@ -5,12 +5,12 @@
     justify-content: center;
     align-items: center;
     height: 80vh;
-    animation: loding ;
+    /* animation: loding ;
     animation-timeline: view();
-    animation-range:  entry 0 cover 40%;
+    animation-range:  entry 0 cover 40%; */
 }
 /*loding animation*/
-@keyframes loding {
+/* @keyframes loding {
     from {
         opacity: 0;
         transform:scale(0) ;
@@ -20,7 +20,7 @@
         opacity: 1;
         transform: scale(1);
     }
-}
+} */
    
 .service-btn button{
     width: 214px;
@@ -53,6 +53,10 @@
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
     margin: 10px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
  }
  .card:hover{
     transform: scale(1.05);
