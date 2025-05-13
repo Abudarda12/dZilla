@@ -9,7 +9,7 @@
     padding: 5px;
     animation: loding ;
     animation-timeline: view();
-    animation-range:  entry 0 cover 40%;
+    animation-range:  entry 0 cover 60%;
 }
 /*loding animation*/
 @keyframes loding {
@@ -35,10 +35,10 @@
     height: 100%;
     object-fit: contain;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
 }
 .brand-card img:hover{
     transform: scale(1.1);
-    transition: all 0.3s ease-in-out;
 }
 @media screen and (max-width: 768px) {
     .brand-card{

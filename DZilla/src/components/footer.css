@@ -10,6 +10,21 @@
     margin: 5vw 5vh 5vh 20vw;
     border:  1px solid #FFFFFF;
     border-radius: 20px;
+    animation: fadeIn 1s ease-in-out;
+    animation-timeline: view();
+    animation-range: entry 0 cover 50%;
+
+}
+/*animation*/
+@keyframes fadeIn {
+    0% {
+        scale: 0;
+        opacity: 0;
+    }
+    100% {
+        scale: 1;
+        opacity: 1;
+    }
 }
 .footer h1{
     font-size: 64.39px;
@@ -21,6 +36,14 @@
     border-radius: 20px;
     background-image: linear-gradient(to right,#371562,#E8FFE7);
     border: .7px solid #FFFFFF;
+    transition: all .3s ease-in-out;
+    cursor: pointer;
+    color: #fff;
+}
+.footer button:hover{
+    background-image: linear-gradient(to right,#E8FFE7,#371562);
+    transform: scale(1.1);
+    
 }
 .social a{
     text-decoration: none;

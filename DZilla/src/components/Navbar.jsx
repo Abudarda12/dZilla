@@ -26,7 +26,7 @@ function Navbar() {
         </div>
         <div className="nav-button">
           <a href="#">
-            <button>Contact us <div className="btn-i"><img src="src\components\9f18301427cd2a5206d430b171a00dd562192ff9.png" alt="" /></div></button>
+            <button>Contact Us <i class="fa-regular fa-circle-user" ></i></button>
           </a>
         </div>
         <div className="hamburger" id="hamburger" onClick={toggleMenu}>
